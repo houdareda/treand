@@ -319,7 +319,7 @@ html {
   margin: auto;
   line-height: 1.5;
   font-weight: 600;
-  color: #AA2E5E;
+  color: #EC292F;
   margin-top: 0px;
 }
 
@@ -371,11 +371,11 @@ html {
   outline: none;
   border: none;
   cursor: pointer;
-  background: #A01D50;
+  background: linear-gradient(to left , #B62125 ,#EC292F );
   color: #fff;
-  font-size: 7vw;
+  font-size: 6.5vw;
   font-weight: bolder;
-  padding: 3px 30px;
+  padding: 1px 35px;
   border-radius: 20px;
 }
 
@@ -411,7 +411,7 @@ html {
 .last_sec .footer .boxs .box p{
   font-size: 2.2vw;
   line-height: 1.5;
-  color: #AA2E5E;
+  color: #B9161C;
 }
 
 
@@ -423,59 +423,97 @@ html {
   }
 
 
-
-
-
-
-  .hero .hero_list li{
+  .hero ul li.bg_red.right{
+    margin-left: auto;
+    border-radius:10px
+  }
+  .hero ul li.bg_red.left{
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  .hero ul li{
     font-size: 22px;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 3px 12px;
+
   }
-  .hero .hero_list{
-    padding-top: 40px;
+  .image_btn{
+    width: 250px;
+    margin-top: 15px;
   }
 
-  .doctor .div-btn .btn .txett{
-    padding: 12px 16px 12px;
-    font-size: 22px;
-  }
-  .doctor .text_doctor{
-    padding-top: 40px;
-  }
-  .doctor .text_doctor h3{
-    padding-right: 20px;
-  }
-  .doctor .text_doctor .bg_white{
-    padding-right: 20px;
+  .results .top_image{
+    width: 350px;
   }
 
-  .doctor .text_doctor li{
-    margin-right: 10px;
+  .results .content{
+    width: 400px;
   }
-  .doctor .abslute_sec .text h5{
-    font-size: 5vw;
+  .results .btm_img{
+    width: 250px;
   }
-  .doctor .abslute_sec img{
-    width:4.5vw;
+  .results .top_image{
+    padding-top: 0;
   }
-
-  .result .img_results{
-    margin-top: 0;
+  .results .content{
     margin-bottom: 20px;
   }
-  .result .top_result p{
-    font-size: 30px;
-  }
-  .result .top_result h4{
-    font-size: 33px;
-  }
-  .how_work .how_work2{
-    width: 70%;
-  }
-  .how_work .how_work_text p{
-    margin-bottom: 25px;
-    font-size: 20px;
+  .results{
+    background: #D91D28;
   }
 
+
+  .doctor .top_doctor h3{
+    font-size: 30px;
+  }
+
+  .doctor .content_doc img{
+    width: 40%;
+  }
+  .doctor .content_doc .div{
+    width: 60%;
+
+  }
+  .doctor .content_doc ul li{
+    font-size: 3vw;
+    margin-right: 15%;
+ 
+  }
+  .doctor .content_doc p{
+    font-size: 3vw;
+   
+  }
+
+
+  .how_work .top_Sec h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .how_work .top_Sec .text{
+    padding-top: 30px;
+  }
+
+  .how_work .top_Sec h4{
+    font-size: 34px;
+  }
+  .how_work .btm_work p{
+    font-size: 3vw;
+  }
+
+
+
+
+
+
+
+
+
+
+  .last_sec .secret h3{
+    font-size: 22px;
+  }
 
 .last_sec .delv_text p{
   font-size: 35px;
@@ -541,11 +579,6 @@ html {
   .flex_Sec{
     display: flex;
   }
-
-  .result{
-    width: 50%;
-  }
-
   .how_work{
     width: 50%;
   }
@@ -555,57 +588,66 @@ html {
 
   .doctor{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 50px;
   }
 
-  .hero .hero_list li{
-    font-size: 19px;
+
+  .results{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
-  .doctor .text_doctor h3 {
-    font-size: 20px;
+
+  .doctor .content_doc ul li{
+    font-size: 16px;
+    margin-bottom: 30px;
   }
-  .doctor .text_doctor .bg_white h3{
-    font-size: 19px;
+  .doctor .content_doc img{
+    width: 40%;
   }
-  .doctor .text_doctor li{
-    font-size: 15px;
-    margin-bottom: 3vw;
+  .doctor .content_doc p{
+      font-size: 16px;
   }
-  .doctor .abslute_sec .text h5{
+  .how_work .top_Sec .text{
+    padding-top: 0;
+  }
+  .how_work .top_Sec h3{
     font-size: 25px;
   }
-  .doctor .abslute_sec img{
-    width: 30px;
+  .how_work .top_Sec h4{
+    font-size: 27px;
   }
-  .hero {
-    background: linear-gradient(to bottom, #FDE3E1, #fff);
-  }
-  .hero .hero_img{
-    width: 70%;
-    margin: 0 auto;
-  }
-  .hero .hero_list{
-    background: transparent;
-  }
-
-  .result .top_result p{
-    font-size: 20px;
+  .how_work .btm_work p{
+    font-size: 18px;
     margin-bottom: 10px;
   }
-  .result .top_result h4{
-    font-size: 22px;
+
+
+
+
+  .last_sec .div_form .content p{
+    margin-bottom: 10px;
+  }
+  .last_sec .div_form form{
+    padding: 30px 0px;
+  }
+
+  .last_sec .secret img{
+    width: 60px;
+  }
+  .last_sec .secret h3{
+    font-size: 20px;
+  }
+  .last_sec .div_form .text_price_img{
     margin-bottom: 20px;
   }
-
-  .how_work .how_work_text p{
-    font-size: 18px;
-  }
-
-
-
-
-
-
-
 
 
   .last_sec{
@@ -673,24 +715,6 @@ html {
   }
 
 
-  .how_work{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .how_work .how_work2{
-    margin-bottom: 50px;
-  }
-
-  .how_work .how_work_text h5{
-    font-size: 25px;
-    margin-bottom: 30px;
-  }
-  .how_work .how_work_text h5::after, .how_work .how_work_text h5::before{
-    width: 28%;
-  }
-
 
 
 
@@ -721,6 +745,14 @@ html {
 
 @media (min-width:1300px) {
 
+  .hero .top_image{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .hero ul li{
+    margin-bottom: 10px;
+  }
+
   .last_sec .div_form form{
     width: 500px;
   }
@@ -730,48 +762,7 @@ html {
     margin-left: 60px;
   }
 
-  .swiper{
-    margin-bottom: 50px;
-  }
-  .result .top_result{
-    padding-top: 50px;
-  }
-  .how_work .how_work2{
-    margin-bottom: 20px;
-  }
 
-  .how_work .how_work_text h5{
-    margin-bottom: 10px;
-  }
- 
-  .doctor .text_doctor h3{
-    padding-right: 20px;
-  }
-  .doctor .text_doctor .bg_white h3{
-    padding-right: 20px;
-  }
-  .doctor .text_doctor li{
-    margin-right: 25px;
-    font-size: 20px;
-  }
-  .doctor .text_doctor .bg_white h3{
-    font-size: 24px;
-  }
-  .doctor .text_doctor h3{
-    font-size: 28px;
-  }
-  .hero .hero_img{
-    margin-bottom: 20px;
-  }
-  .hero .hero_list li{
-    font-size: 22px;
-  }
-  .result .top_result p{
-    font-size: 24px;
-  }
-  .result .top_result h4{
-    font-size: 26px;
-  }
   .last_sec .div_form .flex_price .img_productt{
     top: 10px;
   }
@@ -781,13 +772,22 @@ html {
   .last_sec .div_form .content p{
     font-size: 22px;
   }
+  .doctor .content_doc ul li{
+    font-size: 20px;
+  }
+
+  .doctor .content_doc p{
+    width: max-content;
+    font-size: 18px;
+    padding-right: 10%;
+  }
 }
 
 
 
 /* Thanks Page */
 body.thanks_page_page{
-  background: url(../img/bg_thanks.jpg);
+  background: url(../img/thanks.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -813,7 +813,7 @@ body.thanks_page_page{
   padding: 5px 30px;
   font-size: 20px;
   color: #fff;
-  background: #A01D50;
+  background: linear-gradient(to left , #B62125 ,#EC292F );
   width: max-content;
   border-radius: 10px;
   margin: 0 auto 20px;
@@ -838,13 +838,7 @@ body.thanks_page_page{
 
 @media (min-width:500px) {
   body.thanks_page_page{
-    background: linear-gradient(to bottom, #ffbfba, #fff);
-    background-size: cover;
-    background-position: center;
+    background: #0F0F0F;
     min-height: 100vh;
   }
-}
-
-.my2Swiper22{
-  direction: ltr;
 }
